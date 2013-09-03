@@ -15,17 +15,17 @@
 			myTextBox.width = 50;
 			myTextBox.height = 60;
 			myTextBox.x = 240;
-			myTextBox.y = 100;
+			myTextBox.y = 220;
 			myTextBox.autoSize = "center";
 			myTextBox.background = true;
-			myTextBox.backgroundColor = 0x990000;
+			myTextBox.backgroundColor = 0xFFFFFF;
 			myTextBox.type = TextFieldType.INPUT;
 			myTextBox.autoSize = "none";
 			
 			var format:TextFormat = new TextFormat();
 			format.font = "Showcard Gothic";
 			format.size = 40;
-			format.color = 0xFFFFFF;
+			format.color = 0x990000;
 			format.align = "center";
 			
 			myTextBox.defaultTextFormat = format;

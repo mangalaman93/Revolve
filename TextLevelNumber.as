@@ -13,10 +13,9 @@
 			levelMAX = level_max;
 			
 			myTextBox.width = 50;
-			myTextBox.height = 60;
+			myTextBox.height = 50;
 			myTextBox.x = 240;
-			myTextBox.y = 220;
-			myTextBox.autoSize = "center";
+			myTextBox.y = 225;		
 			myTextBox.background = true;
 			myTextBox.backgroundColor = 0xFFFFFF;
 			myTextBox.type = TextFieldType.INPUT;
@@ -51,8 +50,12 @@
 		}
 		
 		public function getLevel():Number {
-			var level = Number(myTextBox.getRawText());
+			var level:Number = Number(myTextBox.getRawText());
 			return level;
+		}
+		
+		public function setLevel(level:Number):void {
+			myTextBox.text = level.toString(10);
 		}
 	}
 	

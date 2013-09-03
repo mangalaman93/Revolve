@@ -5,7 +5,7 @@
 	import flash.events.*;
 	
 	public class Moves extends Sprite {
-		private var box:TextField = new TextField();
+		public var box:TextField = new TextField();
 		private var number_of_moves:String = "00";
 
 		public function Moves() {
